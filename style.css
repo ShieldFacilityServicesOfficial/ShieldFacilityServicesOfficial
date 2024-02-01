@@ -22,7 +22,7 @@ body {
     width: 198vb;
     background-size: cover;
     background-attachment: fixed;
-        background: linear-gradient(300deg,#000000,#320000);
+        background: linear-gradient(300deg,#000000,rgb(0, 12, 50));
         background-size: 120% 120%;
         animation: gradient-animation 12s ease infinite;
       
@@ -44,7 +44,7 @@ h1 {
     position: relative;
     font-family: AcornBold;
     text-align: center;
-    color:#ff8484;
+    color:rgb(95, 132, 255);
     font-size: 100px;
     margin-top: 0px;
     padding-top: 100px;
@@ -55,14 +55,14 @@ p {
   margin-top: 0px;
   padding-top: 0px;
   text-align: center;
-  color:rgb(255, 188, 188);
+  color:rgb(188, 198, 255);
   font-family: "gt", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-size: 21px;
 }
 
 a {
     
-    text-decoration-color: rgb(255, 127, 127);
+    text-decoration-color: rgb(127, 129, 255);
 }
 
 
@@ -70,14 +70,14 @@ a {
 .navBar {
     position: fixed;
     overflow: hidden;
-    background-color: rgba(34, 0, 0, 0.514);
+    background-color: rgba(0, 2, 29, 0.63);
     height: 50px;
     width: 197vb;
     margin-top: 0px;
     border-radius: 50px;
     border-style:solid;
     border-width: 0.3px;
-    border-color: #530a0a;
+    border-color: rgba(0, 41, 177, 0.425);
     -webkit-backdrop-filter: blur(12px);
     backdrop-filter: blur(12px);
     z-index: 9999;
@@ -86,16 +86,16 @@ a {
 .navBar a {
    font-family: GTLight;
    float: left;
-   color: rgb(202, 119, 119) ;
+   color: rgb(95, 132, 255) ;
    text-align: center;
-   padding: 8px 40px;
+   padding: 8px 30px;
    text-decoration: none;
    font-size: 30px;
 }
 
 .navBar a:hover {
-    background-color: #ff848434;
-    color: rgb(255, 130, 130);
+    background-color: #9084ff34;
+    color: rgb(188, 198, 255);
     border-radius: 150px;
     -webkit-backdrop-filter: blur(12px);
     backdrop-filter: blur(12px);
@@ -111,26 +111,27 @@ a {
 }
 
 
-.navBar .splitNav2 {
-  background-color: #320000;
+/* .navBar .splitNav2 {
+  background-color: #000132;
   margin-left: 439.6px !important;
   font-family: AcornLight;
   font-size: 35px;
   padding-bottom: 0px;
   border-style:solid;
     border-width: 0.3px;
-    border-color: #530a0a;
+    border-color: #0a1153;
     border-radius: 150px;
-}
+} */
 
 .title1 {
-  font-size: 150px;
+  font-size: 115px;
   margin-bottom: 0px;
   padding-bottom: 8px;
 }
 
 .title2 {
-  font-size: 170px;
+  color: rgb(188, 198, 255);
+  font-size: 45px;
   padding-top: 0px;
   margin-bottom: 0px;;
 }
@@ -145,11 +146,11 @@ a {
   margin-right: 400px;
   margin-bottom: 100px;
   flex: 1;
-  border: 1px solid #ff9f9f96;
+  border: 1px solid #a69fff96;
   padding: 10px;
   margin-top: 50px;
   box-sizing: border-box;
-  background-color: #530a0a46;
+  background-color: #00000046;
   border-radius: 50px;
     -webkit-backdrop-filter: blur(12px);
     backdrop-filter: blur(12px);
@@ -162,12 +163,18 @@ a {
   margin-left: 80px;
   margin-bottom: 100px;
   flex: 1;
-  border: 1px solid rgba(236, 175, 175, 0.637);
+  border: 1px solid rgba(176, 175, 236, 0.637);
   padding: 10px;
   margin-top: 50px;
   box-sizing: border-box;
-  background-color: #ff84845e;
+  background-color: #0f00005e;
   border-radius: 50px;
     -webkit-backdrop-filter: blur(12px);
     backdrop-filter: blur(12px);
+}
+
+.logo {
+  height: 460px;
+  width: 400px;
+  align-items: center;
 }
